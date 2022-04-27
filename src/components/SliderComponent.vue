@@ -1,17 +1,20 @@
 <template>
     <div class="slider-container">
         <HeaderComponent />
+        <MarketingSlider />
       
   </div>
 </template>
 
 <script>
 import HeaderComponent from '@/components/HeaderComponent.vue'
+import MarketingSlider from '@/components/MarketingSlider.vue'
 
 export default {
   name: 'SliderComponent',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    MarketingSlider
   }
 }
 </script>
