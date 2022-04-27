@@ -26,6 +26,8 @@ export default {
     .menu-container{
         width: 50%;
         display: flex;
+        height: 50px;
+        line-height: 50px;
 
         ul{
             width: 60%;
@@ -42,13 +44,11 @@ export default {
                     &:hover{
                         color: $lima;
                     }
-
-
                 }
-
             }
         }
         button{
+            align-self: center;
             height: 20px;
             margin-left: 50px;
             border-radius: 50px;

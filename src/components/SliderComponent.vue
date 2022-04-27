@@ -21,13 +21,15 @@ export default {
 
 <style lang="scss" scoped>
     .slider-container{
-        display: flex;
         background-image: url("/src/images/avada-movers-homeherobackground-final.jpg");
         background-position: center;
         background-size: cover;
         height: 400px;
         background-repeat: no-repeat;
         width: 100vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
 
     }
 </style>>

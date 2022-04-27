@@ -20,14 +20,15 @@ export default {
 
 <style lang="scss" scoped>
     .header-container{
+        height: 80px;
         display: flex;
-                width: 100vw;
-
-        margin: 10px 10%;
+        width: 100vw;
+        padding: 20px 0;
+        margin: 0px 10%;
         .logo{
             width: 40%;
             img{
-                max-width: 150px;
+                height: 50px;
 
             }
         }
