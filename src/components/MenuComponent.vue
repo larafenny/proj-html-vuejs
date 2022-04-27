@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="menu-container">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Rates</a></li>
@@ -20,6 +20,52 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "../assets/palette.scss";
+
+    .menu-container{
+        width: 50%;
+        display: flex;
+
+        ul{
+            width: 60%;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+
+            li{
+                a{
+                    text-decoration: none;
+                    color: $shark;
+                    font-size: 12px;
+                    font-weight: 800;
+                    &:hover{
+                        color: $lima;
+                    }
+
+
+                }
+
+            }
+        }
+        button{
+            height: 20px;
+            margin-left: 50px;
+            border-radius: 50px;
+            padding: 0px 15px;
+            color: $white;
+            background-color: $denim;
+            border: none;
+            font-size: 10px;
+            font-weight: 900;
+            &:hover{
+                cursor: pointer;
+                color: $silver;
+                transform: scale(1.1);
+            }
+            
+        }
+    }
+    
 
 </style>
