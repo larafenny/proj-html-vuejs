@@ -1,6 +1,7 @@
 <template>
     <div class="container">
         <div class="logo">
+            <img src="/avada-movers-logo.png" alt="logo">
         </div>
         <MenuComponent />   
     </div>
@@ -17,6 +18,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+    
+</style>>
 
-</style>

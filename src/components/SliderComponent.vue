@@ -1,8 +1,6 @@
 <template>
-    <div>
-    
+    <div class="container">
         <HeaderComponent />
-        <p>Slider</p>
       
   </div>
 </template>
@@ -18,6 +16,13 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+    .container{
+        display: flex;
+        background-image: url("/src/images/avada-movers-homeherobackground-final.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 400px;
 
-</style>
+    }
+</style>>
