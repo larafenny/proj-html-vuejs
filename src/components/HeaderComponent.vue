@@ -1,13 +1,19 @@
 <template>
-    <div>
-        HEADER
+    <div class="container">
+        <div class="logo">
+        </div>
+        <MenuComponent />   
     </div>
 </template>
 
 <script>
-export default {
-    name: 'HeaderComponent'
+import MenuComponent from '@/components/MenuComponent.vue'
 
+export default {
+    name: 'HeaderComponent',
+    components: {
+        MenuComponent
+    }
 }
 </script>
 
