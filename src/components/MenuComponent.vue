@@ -22,6 +22,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/palette.scss";
+@import "../assets/elements.scss";
+
 
     .menu-container{
         width: 50%;
@@ -47,24 +49,9 @@ export default {
                 }
             }
         }
-        button{
-            align-self: center;
-            height: 20px;
-            margin-left: 50px;
-            border-radius: 50px;
-            padding: 0px 15px;
-            color: $white;
-            background-color: $denim;
-            border: none;
-            font-size: 10px;
-            font-weight: 900;
-            &:hover{
-                cursor: pointer;
-                color: $silver;
-                transform: scale(1.1);
-            }
+        
             
-        }
+        
     }
     
 
