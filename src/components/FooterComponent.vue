@@ -1,5 +1,6 @@
 <template>
-    <div class="container">
+<div class="container">
+    <div class="footer-container">
         <div class="about">
             <h2>ABOUT</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus eum ipsum ab assumenda.</p>
@@ -59,11 +60,19 @@
             </ul>
         </div>
     </div>
+    <BottomFooter />
+</div>
+    
 </template>
 
 <script>
+import BottomFooter from './BottomFooter.vue'
+
 export default {
-    name: 'FooterComponent'
+    name: 'FooterComponent',
+    components: {
+        BottomFooter
+    }
 
 }
 </script>
@@ -71,10 +80,10 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/palette.scss";
 
-.container{
+.footer-container{
     border-top: solid 10px $lima;
     padding: 50px 10%;
-    height: 400px;
+    min-height: 400px;
     display: flex;
     h2{
         color: $shark;

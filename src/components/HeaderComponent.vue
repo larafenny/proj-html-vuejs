@@ -22,7 +22,6 @@ export default {
     .header-container{
         height: 80px;
         display: flex;
-        width: 100vw;
         padding: 20px 0;
         margin: 0px 10%;
         .logo{

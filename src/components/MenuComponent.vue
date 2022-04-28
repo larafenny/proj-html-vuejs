@@ -1,12 +1,8 @@
 <template>
     <div class="menu-container">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Rates</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li v-for="item in menu"><a href="#">{{item}}</a></li>
+            
         </ul>
         <button>FREE QUOTE</button>
     </div>
@@ -15,7 +11,12 @@
 
 <script>
 export default {
-    name: 'MenuComponent'
+    name: 'MenuComponent',
+    data(){
+        return{
+            menu: ['Home', 'Rates', 'Testimonials', 'FAQ', 'Blog', 'Contact']
+        }
+    },
 
 }
 </script>
