@@ -1,12 +1,17 @@
 <template>
     <div>
-        MAIN
+        <FreeQuote />
     </div>
 </template>
 
 <script>
+import FreeQuote from './FreeQuote.vue'
+
 export default {
-    name: 'MainComponent'
+    name: 'MainComponent',
+    components: {
+        FreeQuote,
+    }
 
 }
 </script>
