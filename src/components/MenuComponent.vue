@@ -2,7 +2,6 @@
     <div class="menu-container">
         <ul>
             <li v-for="item in menu"><a href="#">{{item}}</a></li>
-            
         </ul>
         <button>FREE QUOTE</button>
     </div>

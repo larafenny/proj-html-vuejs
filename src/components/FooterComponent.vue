@@ -11,52 +11,20 @@
         <div class="footer-menu">
             <h2>AVADA MOVERS</h2>
             <ul>
-                <li>
+                <li v-for="itemFooter in footerMenu">
                     <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Home</a>
+                    <a href="#">{{itemFooter}}</a>
                 </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Rates</a>
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Free Quote</a>
-                </li>
+                
             </ul>
         </div>
         <div class="last-post">
             <h2>RECENT POSTS</h2>
             <ul>
-                <li>
+                <li v-for="post in posts">
                     <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Heading Out To College?</a>
+                    <a href="#">{{post}}</a>
                 </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Moving Your Business</a>
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Outstanding Quality</a>
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Cost Of Moving</a>
-                </li>
-                <li>
-                    <font-awesome-icon icon="fa-solid fa-angle-right" />
-                    <a href="#">Best Moving Tips</a>
-                </li>
-                
             </ul>
         </div>
     </div>
@@ -72,7 +40,14 @@ export default {
     name: 'FooterComponent',
     components: {
         BottomFooter
+    },
+    data(){
+        return{
+            footerMenu: ['Home', 'Rates', 'Testimonials', 'Blog', 'Free Quote'],
+            posts: ['Heading Out To College?', 'Moving Your Business', 'Outstanding Quality', 'Cost Of Moving', 'Best Moving Tips']
+        }
     }
+
 
 }
 </script>
