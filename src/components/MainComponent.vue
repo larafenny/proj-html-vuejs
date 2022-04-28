@@ -5,6 +5,7 @@
         <ServiceSolution />
         <MoveComponent />
         <TestimonialComponent />
+        <RequestComponent />
     </div>
 </template>
 
@@ -14,6 +15,7 @@ import AwardComponent from './AwardComponent.vue'
 import ServiceSolution from './ServiceSolution.vue'
 import MoveComponent from './MoveComponent.vue'
 import TestimonialComponent from './TestimonialComponent.vue'
+import RequestComponent from './RequestComponent.vue'
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
         AwardComponent,
         ServiceSolution,
         MoveComponent,
-        TestimonialComponent
+        TestimonialComponent,
+        RequestComponent
     }
 
 }
