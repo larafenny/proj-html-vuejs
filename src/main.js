@@ -10,6 +10,7 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
 
 
 
@@ -17,7 +18,7 @@ import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library */
-library.add(faPhoneFlip, faFacebookF, faTwitter, faInstagram, faYoutube)
+library.add(faPhoneFlip, faFacebookF, faTwitter, faInstagram, faYoutube, faPaperPlane)
 
 
 
