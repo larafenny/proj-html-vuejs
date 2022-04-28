@@ -21,8 +21,8 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    padding: 0 10%;  
+    min-height: 400px;
+    padding: 5% 10%;  
 }
 
 .up-title{
