@@ -11,14 +11,14 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons'
-
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library */
-library.add(faPhoneFlip, faFacebookF, faTwitter, faInstagram, faYoutube, faPaperPlane)
+library.add(faPhoneFlip, faFacebookF, faTwitter, faInstagram, faYoutube, faPaperPlane, faAngleRight)
 
 
 
