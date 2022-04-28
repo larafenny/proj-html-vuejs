@@ -20,13 +20,8 @@ export default {
 @import "../assets/elements.scss";
 
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
     background-color: $lightGray;
-    padding: 0 10%;
+
     
 }
 
