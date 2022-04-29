@@ -27,7 +27,6 @@ export default {
     background-image: url("/src/images/avada-movers-testimonial-background.jpg");
     background-position: center;
     background-size: cover;
-    height: 400px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-end;

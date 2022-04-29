@@ -1,10 +1,13 @@
 <template>
     <div class="card-container">
         <div class="card" >
-            <img src="" alt="">
-            <h1>{{service.title}}</h1>
-            <p>{{service.description}}</p>
-            <button>READ MORE</button>
+            <img :src="service.image" alt="">
+            <div class="info-container">
+                <h1>{{service.title}}</h1>
+                <p>{{service.description}}</p>
+                <button>READ MORE</button>
+            </div>
+                
         </div>
         
     </div>
@@ -30,17 +33,35 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 10%;
         width: 100%;
+        text-align: center;
     
 
         .card{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             background-color: $lightGray;
-            height: 400px;
-            margin: 20px;
             width: 300px;
             img{
                 width: 100%;
+            }
+            .info-container{
+                background-color: $white;
+                padding: 20px;
+                margin:  20px;
+                h1{
+                    color: $denim;
+                    font-size: 20px;
+                    font-weight: 900;
+                }
+                p{
+                    color: $shark;
+                    font-size: 12px;
+                    line-height: 1.8em;
+                    padding: 20px 0;
+                }
             }
         }
     }

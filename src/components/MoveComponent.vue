@@ -34,7 +34,7 @@ export default {
 
 .info-box{
     border: solid 10px $darkGreen;
-    width: 50%;
+    width: 30%;
     color: $white;
     margin-right: 80px;
     background-color: $lima;

@@ -1,18 +1,18 @@
 [
     {
-        "image": "avada-movers-serviceonephoto-final-600x383.jpg",
+        "image": "@/images/avada-movers-serviceonephoto-final-600x383.jpg",
         "title": "Two Man Teams",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde quod aspernatur expedita eos tenetur, fugit voluptate veniam, pariatur culpa saepe a commodi voluptatem eveniet itaque.",
         "url": "#"
     },
     {
-        "image": "avada-movers-servicetwophoto-final.jpg",
+        "image": "@/images/avada-movers-servicetwophoto-final.jpg",
         "title": "We Do All The Lifting",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde quod aspernatur expedita eos tenetur, fugit voluptate veniam, pariatur culpa saepe a commodi voluptatem eveniet itaque.",
         "url": "#"
     },
     {
-        "image": "avada-movers-servicethreephoto-final.jpg",
+        "image": "@/images/avada-movers-servicethreephoto-final.jpg",
         "title": "Coast To Coast",
         "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde quod aspernatur expedita eos tenetur, fugit voluptate veniam, pariatur culpa saepe a commodi voluptatem eveniet itaque.",
         "url": "#"

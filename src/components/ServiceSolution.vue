@@ -35,12 +35,12 @@ export default {
 .container{
     margin: 50px 10%;
     align-items: center;
-    min-height: 400px;
     
     .card-container{
-        width: 500px;
         display: flex;
-    
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 }
 
