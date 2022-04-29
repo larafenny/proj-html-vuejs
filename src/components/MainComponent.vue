@@ -2,7 +2,7 @@
     <div>
         <FreeQuote />
         <AwardComponent />
-        <ServiceSolution />
+        <ServiceSolution :services="services" />
         <MoveComponent />
         <TestimonialComponent />
         <RequestComponent />
@@ -17,6 +17,9 @@ import MoveComponent from './MoveComponent.vue'
 import TestimonialComponent from './TestimonialComponent.vue'
 import RequestComponent from './RequestComponent.vue'
 
+import services from '/src/assets/data/services'
+
+
 
 export default {
     name: 'MainComponent',
@@ -27,7 +30,11 @@ export default {
         MoveComponent,
         TestimonialComponent,
         RequestComponent
-    }
+    },
+    data(){
+        return {services};
+    },
+  
 
 }
 </script>

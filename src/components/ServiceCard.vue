@@ -1,10 +1,12 @@
 <template>
     <div class="card-container">
-        <div class="card">
-            <img src="@/images/avada-movers-homeherobackground-final.jpg" alt="">
+        <div class="card" >
+            <img src="" alt="">
+            <h1>{{service.title}}</h1>
+            <p>{{service.description}}</p>
+            <button>READ MORE</button>
         </div>
-        <div class="card">card</div>
-        <div class="card">card</div>
+        
     </div>
      
     
@@ -14,7 +16,8 @@
 export default {
     name: 'ServiceCard',
     props: {
-        service: Object,
+        service: Object
+
     }
 
 }
@@ -22,7 +25,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/palette.scss";
-@import "../assets/elements.scss";
 
     .card-container{
         display: flex;
@@ -36,13 +38,28 @@ export default {
             background-color: $lightGray;
             height: 400px;
             margin: 20px;
-            width: calc(100% / 3);
+            width: 300px;
             img{
                 width: 100%;
             }
         }
     }
-
+    button{
+        align-self: center;
+        height: 20px;
+        border-radius: 50px;
+        padding: 0px 15px;
+        color: $white;
+        background-color: $denim;
+        border: none;
+        font-size: 10px;
+        font-weight: 900;
+        &:hover{
+            cursor: pointer;
+            color: $silver;
+            transform: scale(1.1);
+        }
+}
     
 
 </style>
