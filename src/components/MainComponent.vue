@@ -4,7 +4,7 @@
         <AwardComponent />
         <ServiceSolution :services="services" />
         <MoveComponent />
-        <TestimonialComponent />
+        <TestimonialComponent :testimonials="testimonials" />
         <RequestComponent />
     </div>
 </template>
@@ -18,7 +18,7 @@ import TestimonialComponent from './TestimonialComponent.vue'
 import RequestComponent from './RequestComponent.vue'
 
 import services from '/src/assets/data/services'
-
+import testimonials from '/src/assets/data/testimonial'
 
 
 export default {
@@ -32,7 +32,11 @@ export default {
         RequestComponent
     },
     data(){
-        return {services};
+        return {
+            services,
+            testimonials
+        };
+
     },
   
 

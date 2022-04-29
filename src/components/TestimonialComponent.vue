@@ -2,7 +2,7 @@
     <div class="container">
         <div class="up-title">HAPPY CUSTOMERS</div>
         <div class="title">Testimonials</div>
-        <CardTestimonial />
+        <CardTestimonial v-for="(testimonials, index) in testimonials" :key="index" :testimonial="testimonials"/>
         <button>READ MORE TESTIMONIALS</button>
     </div>
 </template>
@@ -14,6 +14,9 @@ export default {
     name: 'TestimonialComponent',
     components: {
         CardTestimonial
+    },
+    props: {
+        testimonials: Array
     }
 
 }
