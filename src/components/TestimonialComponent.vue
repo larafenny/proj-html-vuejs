@@ -2,7 +2,10 @@
     <div class="container">
         <div class="up-title">HAPPY CUSTOMERS</div>
         <div class="title">Testimonials</div>
-        <CardTestimonial v-for="(testimonials, index) in testimonials" :key="index" :testimonial="testimonials"/>
+        <div class="testimonial-card">
+            <CardTestimonial v-for="(testimonials, index) in testimonials" :key="index" :testimonial="testimonials"/>
+        </div>
+        
         <button>READ MORE TESTIMONIALS</button>
     </div>
 </template>
@@ -27,13 +30,15 @@ export default {
 @import "../assets/elements.scss";
 
 .container{
-    background-image: url("/src/images/avada-movers-testimonial-background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.testimonial-card{
+    display: flex;
 }
     
 
