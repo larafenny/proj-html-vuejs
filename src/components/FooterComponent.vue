@@ -11,7 +11,7 @@
         <div class="footer-menu">
             <h2>AVADA MOVERS</h2>
             <ul>
-                <li v-for="itemFooter in footerMenu">
+                <li v-for="itemFooter in footerMenu" :key="itemFooter">
                     <font-awesome-icon icon="fa-solid fa-angle-right" />
                     <a href="#">{{itemFooter}}</a>
                 </li>
@@ -21,7 +21,7 @@
         <div class="last-post">
             <h2>RECENT POSTS</h2>
             <ul>
-                <li v-for="post in posts">
+                <li v-for="post in posts" :key="post">
                     <font-awesome-icon icon="fa-solid fa-angle-right" />
                     <a href="#">{{post}}</a>
                 </li>

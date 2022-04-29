@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Home",
+        "active": true,
+        "url": "#"
+    },
+    {
+        "name": "Rates",
+        "active": false,
+        "url": "#"
+    },
+    {
+        "name": "Testimonials",
+        "active": false,
+        "url": "#"
+    },
+    {
+        "name": "FAQ",
+        "active": false,
+        "url": "#"
+    },
+    {
+        "name": "Blog",
+        "active": false,
+        "url": "#"
+    },
+    {
+        "name": "Contact",
+        "active": false,
+        "url": "#"
+    }
+]

@@ -1,7 +1,7 @@
 <template>
     <div class="menu-container">
         <ul>
-            <li v-for="item in menu"><a href="#">{{item}}</a></li>
+            <li v-for="(item, index) in mainMenu" :key="index" :class="{active: item.active}">{{item.name}}</li>
         </ul>
         <button>FREE QUOTE</button>
     </div>
@@ -11,11 +11,7 @@
 <script>
 export default {
     name: 'MenuComponent',
-    data(){
-        return{
-            menu: ['Home', 'Rates', 'Testimonials', 'FAQ', 'Blog', 'Contact']
-        }
-    },
+    props: ['mainMenu'],
 
 }
 </script>
@@ -38,20 +34,23 @@ export default {
             justify-content: space-around;
 
             li{
+                
                 a{
                     text-decoration: none;
                     color: $shark;
                     font-size: 12px;
                     font-weight: 800;
+                    &.active{
+                    color: $lima;
+                } 
+                    
                     &:hover{
                         color: $lima;
                     }
                 }
+                
             }
         }
-        
-            
-        
     }
     
 

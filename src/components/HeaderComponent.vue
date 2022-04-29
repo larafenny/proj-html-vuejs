@@ -3,18 +3,22 @@
         <div class="logo">
             <img src="/avada-movers-logo.png" alt="logo">
         </div>
-        <MenuComponent />   
+        <MenuComponent :mainMenu="menu"/>   
     </div>
 </template>
 
 <script>
 import MenuComponent from '@/components/MenuComponent.vue'
+import menu from '/src/assets/data/menu'
 
 export default {
     name: 'HeaderComponent',
     components: {
         MenuComponent
-    }
+    },
+    data(){
+        return {menu};
+    },
 }
 </script>
 
