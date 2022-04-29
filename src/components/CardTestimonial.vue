@@ -1,5 +1,7 @@
 <template>
-    <div>CARD</div>
+    <div class="container">
+        <img src="" alt="">
+    </div>
 </template>
 
 <script>
@@ -9,6 +11,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
 </style>

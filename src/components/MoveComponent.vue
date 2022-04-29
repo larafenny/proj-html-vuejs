@@ -19,6 +19,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/palette.scss";
+@import "../assets/palette.scss";
 
 .container{
     background-image: url("/src/images/avada-movers-servicetwophoto-final.jpg");

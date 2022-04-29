@@ -1,15 +1,21 @@
 <template>
     <div class="card-container">
-        <div class="card">card</div>
+        <div class="card">
+            <img src="@/images/avada-movers-homeherobackground-final.jpg" alt="">
+        </div>
         <div class="card">card</div>
         <div class="card">card</div>
     </div>
+     
     
 </template>
 
 <script>
 export default {
-    name: 'ServiceCard'
+    name: 'ServiceCard',
+    props: {
+        service: Object,
+    }
 
 }
 </script>
@@ -31,6 +37,9 @@ export default {
             height: 400px;
             margin: 20px;
             width: calc(100% / 3);
+            img{
+                width: 100%;
+            }
         }
     }
 
