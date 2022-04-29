@@ -1,16 +1,16 @@
 [
     {
-        "image": "@/images/avada-movers-serviceonephoto-final-600x383.jpg",
+        "image": "avada-movers-johndoe-final.jpg",
         "name": "John Doe",
         "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde quod aspernatur expedita eos tenetur, fugit voluptate veniam, pariatur culpa saepe a commodi voluptatem eveniet itaque."
     },
     {
-        "image": "@/images/avada-movers-servicetwophoto-final.jpg",
+        "image": "/src/images/avada-movers-janedoe-final.jpg",
         "name": "Jane Doe",
         "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde quod aspernatur expedita eos tenetur, fugit voluptate veniam, pariatur culpa saepe a commodi voluptatem eveniet itaque."
     },
     {
-        "image": "@/images/avada-movers-servicethreephoto-final.jpg",
+        "image": "../src/images/avada-movers-johnsmith-final.jpg",
         "name": "John Smith",
         "info": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident unde quod aspernatur expedita eos tenetur, fugit voluptate veniam, pariatur culpa saepe a commodi voluptatem eveniet itaque."
     }
